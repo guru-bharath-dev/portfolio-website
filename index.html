@@ -15,19 +15,43 @@
       background: #1e293b;
     }
     h1 { margin: 0; }
+
     section {
       padding: 20px;
       max-width: 800px;
       margin: auto;
     }
+
     .card {
       background: #1e293b;
       padding: 15px;
-      margin: 10px 0;
+      margin: 15px 0;
       border-radius: 10px;
+      transition: 0.3s;
     }
+
+    .card:hover {
+      transform: scale(1.03);
+      background: #334155;
+    }
+
     a {
       color: #38bdf8;
+      text-decoration: none;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 10px;
+      background: #38bdf8;
+      color: black;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
     }
   </style>
 </head>
@@ -37,6 +61,11 @@
 <header>
   <h1>Guru Bharath</h1>
   <p>Frontend Developer | ReactJS</p>
+
+  <!-- Buttons -->
+  <a class="btn" href="#">Download Resume</a>
+  <a class="btn" href="https://github.com/guru-bharath-dev">GitHub</a>
+  <a class="btn" href="https://linkedin.com/in/guru-bharath-45b079373">LinkedIn</a>
 </header>
 
 <section>
